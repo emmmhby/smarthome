@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)http://www.bootcss.com/p/responsive-nav.js/demo/# -->
+<html lang="en" class="js  js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Responsive Nav · Advanced Left Navigation Demo</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!--[if lte IE 8]><link rel="stylesheet" href="responsive-nav.css"><![endif]-->
+    <!--[if gt IE 8]><!--><link rel="stylesheet" href="./abc_files/styles.css"><!--<![endif]-->
+    <script type="text/javascript" async="" src="./abc_files/ga.js"></script><script>
+      var doc = document, docEl = doc.documentElement;
+      docEl.className = docEl.className.replace(/(^|\s)no-js(\s|$)/, " js ");
+    </script>
+    <script src="./abc_files/responsive-nav.js"></script>
+  <style>#nav.opened{max-height:179px}</style></head>
+  <body>
+
+    <div role="navigation" id="nav" class="closed" aria-hidden="true" style="transition: max-height 400ms ease 0s; position: absolute;">
+      <ul>
+        <li class="active"><a>Home</a></li>
+        <li><a>About</a></li>
+        <li><a>Projects</a></li>
+        <li><a>Blog</a></li>
+      </ul>
+    </div>
+
+    <div role="main" class="main">
+      <a  id="toggle" aria-hidden="false">Menu</a>
+      <h1>Prototype</h1>
+      
+    </div>
+
+    <script>
+      var navigation = responsiveNav("#nav", {customToggle: "#toggle"});
+    </script>
+    
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-39967427-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  
+
+</body></html>

@@ -1,0 +1,87 @@
+.headImg {
+    width: 48px;
+    height: 48px;
+}
+
+.contentImg {
+    width: 160px;
+    height: 128px;
+}
+
+img {
+    width: 48px;
+    height: 48px;
+}
+
+.content {
+    font-size: medium;
+    width: 100%;
+    padding: 5px;
+    margin-top: 60px;
+}
+
+.content li {
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 100%;
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+
+.content li img {
+    float: left;
+}
+
+.content li span {
+    background: #7cfc00;
+    padding: 10px;
+    border-radius: 10px;
+    float: left;
+    margin: 6px 10px 0 10px;
+    max-width: 310px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 3px #ccc;
+}
+
+.content li img.imgleft {
+    float: left;
+}
+
+.content li img.imgright {
+    float: right;
+}
+
+.content li span.spanleft {
+    float: left;
+    background: #fff;
+}
+
+.content li span.spanright {
+    float: right;
+    background: #7cfc00;
+}
+
+#optionsBtn {
+    width: 40px;
+    height: 40px;
+    margin-top: 3px
+}
+
+#sendText {
+    width: 100%;
+    margin-top: 8px
+}
+
+#sendBtn {
+    margin-top: -2px;
+    margin-right: -4px
+}
+
+#footer {
+    height: 32px
+}
+
+#content {
+    margin-bottom: 40px;
+}
